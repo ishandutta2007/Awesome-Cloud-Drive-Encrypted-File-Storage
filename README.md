@@ -30,79 +30,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global cloud storage and file synchronization market is valued at approximately **$150B–$190B** (projected to surpass $500B by the early 2030s at an ~18–23% CAGR driven by data growth and AI workloads). The sector is **moderately concentrated** at the top—where hyperscale tech giants (Google, Microsoft, AWS) capture over 60% of mainstream workspace storage—while maintaining a highly fragmented landscape of specialized challengers competing aggressively on zero-knowledge encryption, sovereignty compliance, and predictable egress-free pricing.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Proton Drive](https://proton.me)**  
-
-  Swiss-based, open-source-client end-to-end encrypted cloud storage and collaborative document platform backed by strict Swiss privacy laws and zero-access cryptography.
-
-
-
-- **[Tresorit](https://tresorit.com)**  
-
-  Enterprise-grade zero-knowledge end-to-end encrypted cloud storage and secure file-sharing suite engineered for regulated industries and confidential team collaboration.
-
-
-
-- **[Sync.com](https://sync.com)**  
-
-  Privacy-focused cloud storage and document collaboration platform providing default client-side end-to-end encryption, granular link permissions, and compliance auditing.
-
-
-
-- **[pCloud](https://pcloud.com)**  
-
-  Cloud storage platform offering virtual drive mounting (`pCloud Drive`), lifetime storage plans, and optional client-side zero-knowledge encryption (`pCloud Crypto`).
-
-
-
-- **[Icedrive](https://icedrive.net)**  
-
-  Modern cloud storage service featuring Twofish client-side encryption, virtual drive integration, and a fast web/mobile file browser.
-
-
-
-- **[MEGA](https://mega.io)**  
-
-  User-controlled end-to-end encrypted cloud drive, backup, and secure chat/file-transfer platform with zero-knowledge cryptographic key management.
-
-
-
-- **[Google Drive (Google Workspace)](https://google.com)**  
-
-  Ubiquitous cloud file storage, real-time document collaboration, and AI-indexed workspace platform with optional Client-Side Encryption (CSE) for enterprise tiers.
-
-
-
-- **[Microsoft OneDrive](https://microsoft.com)**  
-
-  Deeply integrated Windows and Microsoft 365 cloud file synchronization service featuring Personal Vault 2FA-protected storage and ransomware recovery.
-
-
-
-- **[Dropbox](https://dropbox.com)**  
-
-  Cross-platform cloud file sync, block-level delta transfer, and team content collaboration platform with smart workspace organization.
-
-
-
-- **[Box](https://box.com)**  
-
-  Enterprise cloud content management and workflow platform offering granular governance, e-signatures, and customer-managed encryption keys (Box KeySafe).
+| Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft OneDrive](https://microsoft.com)** | Valuation: ~$3.1T+ / Rev: ~$245B+ (Microsoft) | $1.99/mo ($19.99/yr) for Microsoft 365 Basic (100 GB) | 5 GB permanent free storage across OneDrive (with 15 GB Outlook mailbox) | Deeply integrated Windows and Microsoft 365 cloud file synchronization service featuring Personal Vault 2FA-protected storage and ransomware recovery. |
+| **[Google Drive (Google One)](https://google.com)** | Valuation: ~$2.1T+ / Rev: ~$350B+ (Alphabet) | $1.99/mo ($19.99/yr) for Basic plan (100 GB) | 15 GB permanent free shared storage across Google Drive, Gmail, and Google Photos | Ubiquitous cloud file storage, real-time document collaboration, and AI-indexed workspace platform with optional Client-Side Encryption (CSE) for enterprise tiers. |
+| **[Dropbox](https://dropbox.com)** | Valuation: ~$7.2B Market Cap / Rev: ~$2.52B | $9.99/mo (billed annually at $119.88/yr) or $11.99/mo for Plus (2 TB) | 2 GB permanent free storage with 3 connected device limit and 30-day version history | Cross-platform cloud file sync, block-level delta transfer, and team content collaboration platform with smart workspace organization. |
+| **[Box](https://box.com)** | Valuation: ~$4.8B Market Cap / Rev: ~$1.09B | $10.00/mo (billed annually) or $14.00/mo for Personal Pro (100 GB) | 10 GB permanent free storage (with 250 MB single-file upload limit) | Enterprise cloud content management and workflow platform offering granular governance, e-signatures, and customer-managed encryption keys (Box KeySafe). |
+| **[Proton Drive](https://proton.me)** | Valuation: Non-profit Proton Foundation (Unsold / Rev: ~$97M ARR) | $3.99/mo (billed annually at $47.88/yr) or $4.99/mo for Drive Plus (200 GB) | 5 GB permanent free storage (starts at 2 GB, unlock up to 5 GB via onboarding checklist) | Swiss-based, open-source-client end-to-end encrypted cloud storage and collaborative document platform backed by strict Swiss privacy laws and zero-access cryptography. |
+| **[MEGA](https://mega.io)** | Valuation: Private / Rev: ~$15M–$60M estimated | €3.33/mo (~$3.66/mo billed annually) for Essential plan (200 GB) | 20 GB permanent free zero-knowledge encrypted base storage (expandable via bonus tasks) | User-controlled end-to-end encrypted cloud drive, backup, and secure chat/file-transfer platform with zero-knowledge cryptographic key management. |
+| **[Tresorit](https://tresorit.com)** | Valuation: Acquired by Swiss Post (~$51M prev. val / Rev: ~€8.2M ARR) | $11.99/mo (billed annually at $143.88/yr) for Personal Essential (1 TB) | 3 GB permanent free storage on Tresorit Basic (max 500 MB file size, 2 connected devices); or 14-day free trial on paid plans | Enterprise-grade zero-knowledge end-to-end encrypted cloud storage and secure file-sharing suite engineered for regulated industries and confidential team collaboration. |
+| **[Sync.com](https://sync.com)** | Valuation: Private Bootstrapped / Rev: ~$5M–$10M ARR | $8.00/mo (billed annually at $96.00/yr) for Solo Basic (2 TB) | 5 GB permanent free end-to-end encrypted storage (3 active shared links and folders) | Privacy-focused cloud storage and document collaboration platform providing default client-side end-to-end encryption, granular link permissions, and compliance auditing. |
+| **[pCloud](https://pcloud.com)** | Valuation: Private ($3M raised / Rev: ~$4M–$10M ARR) | $4.99/mo (or $49.99/yr) for Premium (500 GB); $199 one-time Lifetime | 10 GB permanent free storage (starts at 2 GB, unlock up to 10 GB via verification tasks) | Cloud storage platform offering virtual drive mounting (`pCloud Drive`), lifetime storage plans, and optional client-side zero-knowledge encryption (`pCloud Crypto`). |
+| **[Icedrive](https://icedrive.net)** | Valuation: Private Bootstrapped (ID Cloud Services Ltd / Rev: Undisclosed) | $2.99/mo (or $19.99/yr) for Lite (100 GB) | 10 GB permanent free cloud storage (no credit card required) | Modern cloud storage service featuring Twofish client-side encryption, virtual drive integration, and a fast web/mobile file browser. |
 
 
 
